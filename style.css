@@ -90,10 +90,10 @@
 
 /* left leaf css */
 #ll {
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
     z-index: 1;
-    margin-left: 25px;
+    margin-left: 35px;
     margin-top: 460px;
     position: absolute;
 
@@ -251,17 +251,17 @@
 
 /*css for feature div*/
 #feature {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 /*css for learning div*/
 #learning {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 /*css for support div*/
 #support {
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 /* css for base foot*/
