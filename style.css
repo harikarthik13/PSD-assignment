@@ -48,7 +48,7 @@
 .heading::before {
     content: '';
     inset: 0px;
-    background-image: url(psdlayers/man.png);
+    background-image: url(assets/man.png);
     z-index: 0;
     position: absolute;
     background-repeat: no-repeat;
@@ -262,6 +262,24 @@
 /*css for support div*/
 #support {
     margin-left: 40px;
+}
+
+/* css for input type with id mail */
+#mail{
+    position: absolute;
+    width:205px;
+    
+}
+/* css for the help button */
+#helpbut{
+    font-size:small;
+    position: absolute;
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#ffc178;
+    padding: 5px;
+   margin-left:140px;
+   border-style: none;
 }
 
 /* css for base foot*/
