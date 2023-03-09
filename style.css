@@ -6,6 +6,12 @@
     margin-top: 20px;
 }
 
+#navlist{
+    color:#5a6e79;
+    font-family:'Roboto';
+    font-weight: lighter;
+}
+
 #apply {
     color: #ffc480;
     background-color: #ffffff;
@@ -19,6 +25,7 @@
     text-decoration: none;
     font-weight: bold;
     position: relative;
+    margin-top:-5px;
 
 }
 
@@ -257,9 +264,10 @@
 
 /*css for learning div*/
 #learning {
-    margin-left: 40px;
+    margin-left: 90px;
 }
 
+/*css for para in footer*/
 #footpara{
     color: #969595;
     font-family: 'Roboto';
@@ -267,9 +275,43 @@
     
 }
 
+/*css for smalltext in footer*/
+#smalltext1{
+    color: #6b6b6b;
+    font-family: 'Roboto';
+    font-size:11px;
+    position: absolute;
+    margin-top:-34px;
+    margin-left:150px;    
+}
+#smalltext2{
+    color: #6b6b6b;
+    font-family: 'Roboto';
+    font-size:11px;
+    position: absolute;
+    margin-top:-34px;
+    margin-left:160px;    
+}
+#smalltext3{
+    color: #6b6b6b;
+    font-family: 'Roboto';
+    font-size:11px;
+    position: absolute;
+    margin-top:-34px;
+    margin-left:170px;    
+}
+#smalltext4{
+    color: #6b6b6b;
+    font-family: 'Roboto';
+    font-size:11px;
+    position: absolute;
+    margin-top:-34px;
+    margin-left:155px;    
+}
+
 /*css for support div*/
 #support {
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 /* css for input type with id mail */
