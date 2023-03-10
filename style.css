@@ -12,12 +12,18 @@
     font-weight: lighter;
 }
 
+/*css for apply button in top right corner*/
 #apply {
     color: #ffc480;
     background-color: #ffffff;
     border-radius: 20px;
     box-shadow: 3px 3px 10px #cacaca;
 }
+/*hover effect for apply button*/
+#apply:hover {
+    transform: scale(1.1);
+}
+
 
 /*css for id study with underline*/
 #study {
@@ -93,7 +99,10 @@
     border-radius: 20px;
     width: fit-content;
     margin-left: 100px;
-
+    box-shadow: 3px 3px 10px #cacaca;
+}
+#visit:hover {
+    transform: scale(1.1);
 }
 
 /* left leaf css */
@@ -145,6 +154,11 @@
     margin-top: 950px;
 
 }
+/*hover effects for cards*/
+.card:hover {
+    transform: scale(1.1);
+}
+
 
 /* css for outer transparent circle in left side */
 .outercircle {
@@ -201,6 +215,9 @@
 .firstrowcard {
     box-shadow: 10px 10px 25px rgb(185, 185, 185);
 }
+.firstrowcard:hover {
+    transform: scale(1.1);
+}
 
 /* css for the contents in card1 */
 #card1h6 {
@@ -216,6 +233,10 @@
     color: #5a6e79;
 }
 
+/*hover effect for cardno4*/
+#cardno4:hover {
+    transform: scale(1.1);
+}
 /* css for h6 in card2,crd3,card4 with card234 id*/
 .card234 {
     font-size: smaller;
